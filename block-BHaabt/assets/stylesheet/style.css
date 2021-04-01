@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles*/
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+	align-items: center;
+    display: flex;
+    justify-content: space-between;	
+}
+.align-item-start{
+	align-items: flex-start;
+}
+/* header*/
+.header{
+	padding-top: 20px;
+}
+.header-text{
+    font-size: 40px;
+	font-family:"DM Serif Display";
+	color: #2D2640;
+	font-weight: 600;
+}
+.nav-links a{
+	text-decoration: none;
+	color: grey;
+    font-family: sans-serif;
+	margin-right: 19px;
+	font-weight: 600;
+}
+.btn{
+	border: 2px solid grey;
+    padding: 15px 12px;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	border-radius: 4px;
+	font-weight: 600;
+}
+.btn a{
+    display: inline-block;
+	text-decoration: none;
+	color: grey;
+}
+/* article*/
+.section-image img{
+	 height: 530px;
+	 width: 470px;
+}
+.color{
+    height: 80vh;
+	margin-top: 8px;
+	background-color: #2D2640;
+}
+.article-1{
+	padding-top: 60px;
+}
+hr{
+	width: 140px;
+	text-align: left;
+	display: inline-block;
+	border: none;
+	border-top: 2px solid silver;
+	color: silver;
+}
+.article-text h2{
+	font-family: "karla";
+	margin-top: 14px;
+	color: white;
+	font-size: 60px;
+}
+.article-text p{
+	width: 520px;
+	margin-top: 25px;
+	font-size: 19px;
+	word-spacing: -3px;
+	color: silver;
+	font-family: "karla";
+}
+.btn-1{
+	border: 1px solid white;
+	background-color: #2D2640;
+	margin-top: 40px;
+}
+.btn-1 a{
+	color: white;
+}
+/* another article*/
+.section-image-1 img{
+	margin-top: 140px;
+	width: 100%;
+}
+.section-image-2 img{
+    height: 460px;
+}
+.flex-1{
+	flex: 0 1 50%;
+}
+.flex-2{
+	flex: 0 1 44%;
+}
+.article-text-1{
+	margin-top: 130px;
+}
+.article-text-1 h4{
+	font-family: "karla";
+    font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+.article-text-1 p{
+	font-family: "karla";
+	color: grey;
+	font-size: 17px;
+	width: 460px;
+	margin-top: 12px;
+	letter-spacing: -1px;
+}
+.btn-2{
+	margin-top: 20px;
+}
+
+/* another section*/
+.flex-3{
+	flex: 0 1 30%;
+}
+.flex-4{
+	flex: 0 1 30%;
+}
+.flex-5{
+	flex: 0 1 30%;
+}
+.article-text-2{
+	margin-top: 80px;
+}
+.article-text-2 h5{
+	font-size: 45px;
+	color: black;
+	margin-top: 10px;
+	font-weight: 600;
+	font-family: "karla";
+}
+.article-text-3{
+	margin-top: 40px;
+}
+.article-3-heading p{
+	font-size: 15px;
+	margin-top: 15px;
+	color: grey;
+	font-family: "karla";
+	word-spacing: -1px;
+}
+.article-3-heading h6{
+	font-family: "karla";
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: 900;
+}
+.icons{
+	border-radius: 50%;
+	background-color: #8AB4F0;
+	text-align: center;
+	padding: 12px 12px;
+	display: inline-block;
+}
+.icons-1{
+	color: white;
+}
+.back-color-height{
+	height: 45vh;
+	margin-top: 80px;
+}
+.btn-2{
+	width: 200px;
+}
+.text-align{
+	margin-top: 20px;
+	text-align: center;
+}
+.article-margin{
+	margin-top: 50px;
+}
+.icon-back-color a{
+	font-size: 25px;
+	padding: 0 6px;
+	color: grey;
+}
+.line hr{
+	width: 1150px;
+}
+/*footer*/
+.footer{
+	margin-top: 20px;
+	height: 10vh;
+	background-color:#2D2640;
+}
+.span-1{
+	color: silver;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 30px;
+}
+
+
